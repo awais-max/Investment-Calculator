@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  background-color: #f4f4f6;
+  font-family: 'Lato','Montserrat';
+  background-image: url('./assets/green.webp');
+  background-size: cover;
+
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+
+}
+#main{
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.InputContainer{
+  background-color: #F4F4F6;
+  padding: 20px 15px 20px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.InputBox{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.InputBox input{
+  border: solid 1.5px #9e9e9e;
+  border-radius: 5px;
+  max-width: 130px;
+  padding: 0.3rem;
+  background: white;
+  font-size: 17px;
+  color: black;
+  font-family: 'Lato';
+  font-weight:500;
+}
+
+.result{
+  text-align: center;
+  background-color: #F4F4F6;
+  padding: 1px;
+  margin-top: 10px;
+}
+
+table {
+ font-family: 'Lato';
+ border-collapse: collapse;  
+  width: 100%;
+  margin-top: 20px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+ 
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+  
+}
+button {
+  font-family: 'Montserrat',sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ffffff;
+  border: 1px solid #cbfa92;
+  background-color: #a0d703;
+}
+
